@@ -55,7 +55,7 @@
               <div class="row">
                 <div class="col-lg-8 col-md-8">
                   <div class="input-group input-group-lg">
-                    <input type="text" class="form-control" placeholder="E.g. London, New York, Tokyo...">
+                    <input type="text" class="form-control" placeholder="E.g. London, New York, Tokyo..." id="city">
                       <span class="input-group-btn">
                         <button class="btn btn-success" type="button" id="search">Search</button>
                       </span>
