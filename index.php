@@ -41,24 +41,35 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Cover</h3>
-              <nav>
+              <h3 class="masthead-brand">Weather</h3>
+              <!--<nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="#">Home</a></li>
                   <li><a href="#">Features</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>
-              </nav>
+              </nav>-->
             </div>
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <h1 class="cover-heading">Get the Weather</h1>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+              Search a city to get the current weather.
             </p>
-          </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="input-group input-group-lg">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                  </div><!-- /input-group -->
+                </div>
+              </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+          </div><!-- /.inner cover -->
 
           <div class="mastfoot">
             <div class="inner">
