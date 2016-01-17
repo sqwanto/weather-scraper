@@ -60,6 +60,8 @@
                         <button class="btn btn-success" type="button" id="search">Search</button>
                       </span>
                   </div><!-- /input-group -->
+                  <div class="alert alert-success" role="alert" id="weather_alert">
+                  </div>
                 </div><!-- /.col-lg-6 -->
               </div><!-- /.row -->
             </div> <!-- /.container-->

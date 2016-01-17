@@ -1,3 +1,9 @@
 #inCov {
+	position: relative;
 	top: -100px;
+}
+
+#weather_alert {
+	margin-top: 20px;
+	display: none;
 }
