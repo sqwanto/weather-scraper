@@ -1,10 +1,20 @@
-$("#search").click(function(){
+$("#search").click(function(event){
+
+	event.preventDefault();
 
 	if ($("#city").val()!=""){
 
 		$.get("scraper.php?city="+$("#city").val(), function (data){
-			$("#weather_alert").css("display", "block");
-			$("#weather_alert").html(data);
+
+			if (data==""){
+
+				$("#weather_invalid").fadeIn();
+
+			} else {
+
+				$("#weather_alert").html(data).fadeIn();
+
+			}
 
 		});
 

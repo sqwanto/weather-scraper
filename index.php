@@ -35,14 +35,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Weather</h3>
-              <!--<nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </nav>-->
+
             </div>
           </div>
 
@@ -55,12 +48,14 @@
               <div class="row">
                 <div class="col-lg-8 col-md-8">
                   <div class="input-group input-group-lg">
-                    <input type="text" class="form-control" placeholder="E.g. London, New York, Tokyo..." id="city">
-                      <span class="input-group-btn">
-                        <button class="btn btn-success" type="button" id="search">Search</button>
-                      </span>
+                      <input type="text" class="form-control" placeholder="E.g. London, New York, Tokyo..." id="city">
+                        <span class="input-group-btn">
+                          <button class="btn btn-success" type="button" id="search">Search</button>
+                        </span>
                   </div><!-- /input-group -->
                   <div class="alert alert-success" role="alert" id="weather_alert">
+                  </div>
+                  <div class="alert alert-danger" role="alert" id="weather_invalid">Please enter a valid city name
                   </div>
                 </div><!-- /.col-lg-6 -->
               </div><!-- /.row -->
