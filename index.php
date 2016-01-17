@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -52,24 +53,24 @@
             </div>
           </div>
 
-          <div class="inner cover">
+          <div class="inner cover" id="inCov">
             <h1 class="cover-heading">Get the Weather</h1>
             <p class="lead">
               Search a city to get the current weather.
             </p>
-
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="input-group input-group-lg">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8 col-md-8">
+                  <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="E.g. London, New York, Tokyo...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-success" type="button">Search</button>
+                      </span>
                   </div><!-- /input-group -->
-                </div>
-              </div><!-- /.col-lg-6 -->
-            </div><!-- /.row -->
-          </div><!-- /.inner cover -->
+                </div><!-- /.col-lg-6 -->
+              </div><!-- /.row -->
+            </div> <!-- /.container-->
+         </div> <!-- /.inner cover -->
 
           <div class="mastfoot">
             <div class="inner">
